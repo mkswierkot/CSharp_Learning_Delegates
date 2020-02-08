@@ -11,9 +11,9 @@ namespace DelegatesPractice
         // on that basis
         public void CalculateSomething(ref int[] array, MathematicalTransoformator delegat)
         {
-            for(int i =0; i < array.Length; i++)
+            for(int i = 0; i < array.Length; i++)
             {
-                array[i] = delegat(array[i]);
+                delegat(ref array[i]);
             }
 
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marek\\source\\repos\\DelegatesPractice\\DelegatesPractice.csproj",
+      "projectUniqueName": "C:\\Users\\Marek\\source\\repos\\CSharp_Practice_Delegates\\DelegatesPractice.csproj",
       "projectName": "DelegatesPractice",
-      "projectPath": "C:\\Users\\Marek\\source\\repos\\DelegatesPractice\\DelegatesPractice.csproj",
+      "projectPath": "C:\\Users\\Marek\\source\\repos\\CSharp_Practice_Delegates\\DelegatesPractice.csproj",
       "packagesPath": "C:\\Users\\Marek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marek\\source\\repos\\DelegatesPractice\\obj\\",
+      "outputPath": "C:\\Users\\Marek\\source\\repos\\CSharp_Practice_Delegates\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
