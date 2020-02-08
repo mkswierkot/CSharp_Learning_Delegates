@@ -5,21 +5,25 @@ using System.Threading;
 
 namespace DelegatesPractice
 {
-    public class TraineeNo1
+    public interface ICalculator
     {
-
-         public void CalculateSomething(ref int[] array, Reporter delegat)
+        void CalculatePower(ref double[] array,  double b);
+    }
+    public class TraineeNo1 : ICalculator
+    {
+        public void CalculateSomething(ref double[] array, Transformer delegat)
         {
-
-            for(int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                // simulating some calculatons
-                Thread.Sleep(100);
-                delegat(i);
+                array[i] = delegat(array[i], 2.0);
             }
 
         }
-         
+        public void CalculatePower(ref double[] array,  double b = 2.0)
+        {
+            foreach (double a in array) Math.Pow(a, b);
+
+        }
 
     }
 }
